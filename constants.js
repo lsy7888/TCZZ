@@ -1,9 +1,9 @@
 // 生产环境还是开发环境 production development
 var ENV = 'production';
 // 地址变量
-var HOST = ENV == 'development' ? 'http://117.34.95.9' : 'http://117.34.95.9';
+var HOST = ENV == 'development' ? 'http://36.41.173.138' : 'http://36.41.173.138';
 var PORT = ENV == 'development' ? '8033' : '8033';
-var CAS_PORT = ENV == '8080' ? '8080' : '8080';
+var CAS_PORT = ENV == '8282' ? '8282' : '8282';
 // 后台服务地址
 var SERVER_URL = HOST + ':' + PORT;
 // CAS默认地址
